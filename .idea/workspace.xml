@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02ed6868-83ff-4b03-bdca-f86352fccbcb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zimu/chapter9/Example9_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zimu/chapter9/Example9_17.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +15,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Example9_13.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zimu/chapter9/Example9_13.java">
+      <file leaf-file-name="Example9_17.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zimu/chapter9/Example9_17.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="252">
+              <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,6 +50,7 @@
         <option value="$PROJECT_DIR$/src/com/zimu/chapter9/Example9_3.java" />
         <option value="$PROJECT_DIR$/src/com/zimu/chapter9/Example9_9.java" />
         <option value="$PROJECT_DIR$/src/com/zimu/chapter9/Example9_13.java" />
+        <option value="$PROJECT_DIR$/src/com/zimu/chapter9/Example9_17.java" />
       </list>
     </option>
   </component>
@@ -122,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Example9_13">
+  <component name="RunManager" selected="Application.Example9_17">
     <configuration name="Example6_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zimu.chapter6.Example6_3" />
       <module name="javaStudy" />
@@ -136,6 +144,17 @@
     </configuration>
     <configuration name="Example9_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zimu.chapter9.Example9_13" />
+      <module name="javaStudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zimu.chapter9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Example9_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zimu.chapter9.Example9_17" />
       <module name="javaStudy" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -213,9 +232,11 @@
       <item itemvalue="Application.Example9_3" />
       <item itemvalue="Application.Example9_9" />
       <item itemvalue="Application.Example9_13" />
+      <item itemvalue="Application.Example9_17" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example9_17" />
         <item itemvalue="Application.Example9_13" />
         <item itemvalue="Application.Example9_9" />
         <item itemvalue="Application.Example9_3" />
@@ -238,7 +259,7 @@
       <workItem from="1529894808639" duration="1864000" />
       <workItem from="1529920568303" duration="2239000" />
       <workItem from="1529937046841" duration="34000" />
-      <workItem from="1529977637070" duration="1664000" />
+      <workItem from="1529977637070" duration="4791000" />
     </task>
     <task id="LOCAL-00001" summary="2018-06-25">
       <created>1529895963948</created>
@@ -254,11 +275,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529921839700</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2018-06-26：StringTokenizer类">
+      <created>1529980164308</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529980164308</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5977000" />
+    <option name="totallyTimeSpent" value="9104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -359,7 +387,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2018-06-25" />
     <MESSAGE value="2018-06-25：正则表达式和字符串替换" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018-06-25：正则表达式和字符串替换" />
+    <MESSAGE value="2018-06-26：StringTokenizer类" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018-06-26：StringTokenizer类" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/zimu/chapter9/Example9_3.java">
@@ -394,6 +423,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zimu/chapter9/Example9_17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

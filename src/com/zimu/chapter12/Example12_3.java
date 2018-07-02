@@ -11,7 +11,7 @@ public class Example12_3 {
     public static void main(String args[]){
         try {
             Runtime ce = Runtime.getRuntime();  //获得当前运行环境
-            File    file = new File("C:\\windows\\system32", "cmd.exe");
+            File    file = new File("C:\\Windows", "Notepad.exe");
             ce.exec(file.getAbsolutePath());
         }catch (Exception e){
             e.printStackTrace();

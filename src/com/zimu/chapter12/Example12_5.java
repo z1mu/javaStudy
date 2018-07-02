@@ -14,6 +14,7 @@ public class Example12_5 {
             FileOutputStream out = new FileOutputStream("hello.txt");   //创建文件字节输出流
             out.write(b);   //写入文件
             out.write(b, 0, b.length);
+            out.close();
         }catch (Exception e){
             e.printStackTrace();
         }
